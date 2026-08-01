@@ -5,18 +5,19 @@ Users can explore parks by state, view park details, save favorite destinations,
 
 ## Features
 
-.  Home page with a featured national parks carousel
-.  Sticky navigation bar for easy access while scrolling
-.  Explore national parks by state
-.  Search and browse park information
-.  View park images, descriptions, and details
-.  Add and remove favorite parks
-.  Favorites page to view saved destinations
-.  Learn More links to official National Park Service websites
-.  About page explaining the purpose of Wander USA
-.  Contact page for user inquiries
-.  Responsive card-based layout rolling
-.  Featured parks carousel on the home page
+ - Home page with a featured national parks carousel
+- Sticky navigation bar for easy access while scrolling
+-  Explore national parks by state
+-  Search and browse park information
+-  Drag and drop functionality to explore parks by state.
+-  View park images, descriptions, and details
+-  Add and remove favorite parks
+-  Favorites page to view saved destinations
+-  Learn More links to official National Park Service websites
+-  About page explaining the purpose of Wander USA
+-  Contact page for user inquiries
+-  Responsive card-based layout rolling
+-  Featured parks carousel on the home page
 
 ## Technologies Used
 
