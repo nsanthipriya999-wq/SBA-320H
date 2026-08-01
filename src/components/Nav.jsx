@@ -14,7 +14,7 @@ export default function Nav() {
                 🦋Wander USA
               </h1>
               <p className="subtitle">
-                Explore and Wander
+                Explore & Wander
                </p>
             </div>
         {/* //-------------------Home ----------------------------- */}

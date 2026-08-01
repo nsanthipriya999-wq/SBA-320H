@@ -1,4 +1,8 @@
 ### 🦋 WANDER USA
+Wander USA is a React web application that helps users discover and explore America's beautiful national parks. 
+
+Users can explore parks by state, view park details, save favorite destinations, and visit official park websites to plan their next adventure. 
+
 ## Features
 
 .  Home page with a featured national parks carousel
@@ -16,14 +20,109 @@
 
 ## Technologies Used
 
-. React
-. React Router
-. JavaScript
-. CSS
-. Vite
-. National Park Service API
-. AJAX
-. Local storage
+## React
+    Used to build reusable components and create a dynamic user interface.
+
+## React Router
+   Used to create navigation between pages.
+     .Home
+     .Explore
+     .Favorites
+     .About
+     .ContactUs
+     .NotFound
+
+## 🧠 React Hooks
+
+### useState
+
+Used to store and update component data, including:
+ . Park information
+ . Favorite parks
+ . User selections
+
+### useEffect
+
+Used to handle side effects such as:
+. Fetching park data from the API
+. Loading information when components render
+
+### useContext
+
+Used to share favorite park data between components without passing props through multiple levels.
+
+
+## JavaScript
+   Used for:
+    . Application logic
+    . Data handling
+    . User interactions
+    . API requests
+
+## CSS
+ 
+ Used to design:
+. Page layouts
+. Navigation styling
+. Park cards
+. Carousel
+. Sticky navbar
+. Responsive design
+. Nature-inspired color themes
+
+### Vite
+
+Wander USA was created using Vite as the development build tool.
+
+Vite provides:
+- Fast development server
+- Quick updates during development
+- Efficient production builds
+
+ ### National Park Service API
+ Wander USA uses the National Park Service API to retrieve:
+
+. Park names
+. Locations
+. Descriptions
+. Images
+. Official park website links
+
+Data is fetched asynchronously and displayed dynamically in the application.
+
+### AJAX
+Wander USA uses asynchronous JavaScript requests to communicate with an external API.
+
+The application uses the 'fetch()' method to request national park data from the National Park Service API.
+
+The data is retrieved without refreshing the entire page and is then displayed dynamically using React components.
+
+### Local Storage
+
+Local storage is used to save users' favorite parks in the browser.
+
+This allows users to:
+
+-  Save favorite destinations
+-  Keep favorites after refreshing the page
+-  View saved parks later without logging in
+
+### Approach Taken
+Wander USA was developed using a component-based React approach.
+
+The application structure includes reusable components and separate pages for different features.
+
+The development approach included:
+
+. Creating reusable React components for consistent layouts.
+. Fetching national park data from an external API.
+. Managing application data using React hooks.
+. Using Context API to share favorite park information.
+. Saving favorites with local storage.
+. Designing a clean outdoor theme inspired by national parks.
+
+The goal was to create a simple and enjoyable way for users to discover, save, and learn about national parks.
+
 
 ## Complex User Interface Features
 
@@ -38,11 +137,5 @@ The navigation bar uses a sticky position so it stays visible while users scroll
 
 
 ## Local Storage
-
-Wander USA uses browser local storage to save users' favorite parks.
-Favorite parks are stored in the user's browser so that:
-. Saved parks remain available after refreshing the page.
-. Users can revisit their favorite destinations anytime.
-. Users can remove parks from their favorites list.
 
 Local storage allows the application to preserve user preferences without requiring a login system.
