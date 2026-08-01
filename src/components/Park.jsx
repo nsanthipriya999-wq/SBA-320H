@@ -6,23 +6,25 @@ export default function Park({ park, favorites, addFavorite, removeFavorite }) {
         src={park.images?.length ? park.images[0].url : "https://placehold.co/400x300?text=No+Image"}
         alt={park.fullName}
       />
+
       <div className="card-content">
-        <h2>
+        <h3>
           {park.fullName}
-        </h2>
+        </h3>
         <p>
           {park.states}
         </p>
         <p>{park.description ? park.description.substring(0, 120) + ".." : "No description available."}
         </p>
-        <div className="card-button">
-          {/* opens the website url in a new tab  */}
+
+         <div className="card-button">
+          {/* opens the website url in a new tab with security  */}
           <a
             href={park.url}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn More →
+            Explore More....
           </a>
 
           <button

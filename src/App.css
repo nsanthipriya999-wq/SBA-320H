@@ -116,11 +116,6 @@
   object-fit: cover;
 }
 
-.card-content a {
-  color: #2d6a4f;
-  text-decoration: none;
-  font-weight: bold;
-}
 
 .card-button {
   margin-top: auto;
@@ -130,7 +125,7 @@
 }
 
 
-.card-content h2 {
+.card-content h3 {
   color: #264653;
   margin: 5px 0;
 }
@@ -142,13 +137,7 @@
 }
 
 
-.card-content a {
-  display: inline-block;
-  margin-top: 10px;
-  text-decoration: none;
-  color: #0b6efd;
-  font-weight: bold;
-}
+
 
 .card-button{
   margin-top: auto;
@@ -170,6 +159,20 @@
 
 .card-button button:hover {
   background-color: #1b4332;
+}
+
+
+.card-content a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0b6efd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-content a:hover {
+  color: #1b4332;
+  text-decoration: underline;
 }
 /* --------Hero image Home----------------------------- */
 
@@ -367,17 +370,7 @@ background:#E8DFF5;
 .contactus-card p {
   line-height: 1.6;
 }
-.card-content a {
-  display: inline-block;
-  margin-top: 10px;
-  color: #2d6a4f;
-  text-decoration: none;
-  font-weight: bold;
-}
 
-.card-content a:hover {
-  text-decoration: underline;
-}
 /*--------------------not found----------------------------*/
 .notfound-container {
   background-color: #a8c3a0;

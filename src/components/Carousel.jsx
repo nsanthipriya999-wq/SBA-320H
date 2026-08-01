@@ -1,3 +1,5 @@
+//---------Carousel --implementation-----------------------------------------
+
 export default function Carousel({parks})
 {
     return(

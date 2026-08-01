@@ -10,18 +10,18 @@ export default function Explore() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
 
-   //   const apiKey = import.meta.env.VITE_NPS_API_KEY;
+   
 
     //----------------------------Context for saving Favorites-------------------
      const {
          favorites,
          addFavorite,
          removeFavorite
-
     } = useContext(FavoriteContext);
 
 console.log(favorites);
 
+//------UseEffect for state changes-------------------------------------------
     useEffect(() => {
         loadParks();
     }, [stateCode]);
@@ -33,35 +33,24 @@ console.log(favorites);
             setLoading(true);
             setError("");
 
-            //-----------------------Fetching data using api.js----------------------------------------------------
+ //-----------------------Fetching data using api.js----------------------------------------------------
             const data = await getNationalParks(stateCode);
             setParks(data);
-        } catch (error) {
-            console.error(error);
-            setError(
-                "Unable to load national parks."
-            );
+          } catch (error) {
+             console.error(error);
+            setError("Unable to load national parks.." );
         } finally {
-
             setLoading(false);
-
         }
-
     }
-    //---------------------
-
+    {/*Fetches national parks when selected state changes using useEffect */}
     const selectParks = parks.filter((park) =>
-        park.fullName
+        park?.fullName
             .toLowerCase()
             .includes(search.toLowerCase()));
-    // //-------------------------function to check favorite by id-------------------------------
-    // function checkFavorite(id) {
-    //     return favorites.some(
-    //         (park) => park.id === id
-    //     );
-    // }
+    
 
-    //--------------------------------Displays parks according to state selected--------------------------------
+   //--------------------------------Displays parks according to state selected--------------------------------
 
     return (
         <div className="explore-container">
@@ -76,6 +65,12 @@ console.log(favorites);
                     value={stateCode}
                     onChange={(e) => setStateCode(e.target.value)
                     }>
+                    <option value="NJ">
+                       New Jersey
+                     </option>
+                     <option value="NY">
+                        New York
+                    </option>
                     <option value="CA">
                         California
                     </option>
@@ -94,20 +89,16 @@ console.log(favorites);
                     <option value="TX">
                         Texas
                     </option>
-                    <option value="NY">
-                        New York
-                    </option>
+                    
                     <option value="WY">
                         Wyoming
                     </option>
-                    <option value="NJ">
-                       New Jersey
-                     </option>
+                    
                 </select>
 
                 <input
                     type="text"
-                    placeholder="Search park..."
+                    placeholder="🔎Search park..."
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                 />
@@ -127,14 +118,14 @@ console.log(favorites);
                 </h2>
             )}
 
-             <ParkList
+     <ParkList
         parks={selectParks}
         favorites={favorites}
         addFavorite={addFavorite}
         removeFavorite={removeFavorite}
       />
 
-
     </div>
     )
+
 }

@@ -23,6 +23,13 @@ Users can explore parks by state, view park details, save favorite destinations,
 
 ## React
 -Used to build reusable components and create a dynamic user interface.
+   - Carousel
+   - Footer
+   - Nav
+   - Park
+   - ParkList
+   - Place
+   
 
 
 ## React Router
@@ -34,7 +41,7 @@ Users can explore parks by state, view park details, save favorite destinations,
      .ContactUs
      .NotFound
 
-## 🧠 React Hooks
+## React Hooks
 
 ### useState
 
@@ -99,6 +106,8 @@ The application uses the 'fetch()' method to request national park data from the
 
 The data is retrieved without refreshing the entire page and is then displayed dynamically using React components.
 
+A separate program api.js (services folder) handles the AJAX requests.
+
 ### Local Storage
 
 Local storage is used to save users' favorite parks in the browser.
@@ -145,13 +154,19 @@ Local storage allows the application to preserve user preferences without requir
 
 #  Installation Instructions
 
-Clone the repository:
+# Clone the repository:
 git clone <your-repository-url>
 
-Install dependencies:
+# Install dependencies:
 npm install
 
-Start the development server:
+# Environment variables
+
+ Get your own key from the National Park Service API and save it in .env file.
+
+ -.env-example has the list of environment variables used in the project
+ 
+# Start the development server:
 npm run dev
 
 Open the application in your browser using the local development URL.
@@ -164,13 +179,12 @@ http://localhost:5173
 3. Visit the Explore page.
 4. Select a state to view available national parks.
 5. View park images, descriptions, and details.
-6. Click **Learn More** to visit the official park website.
+6. Click **Explore More...** to visit the official park website.
 7. Click **Add Favorite** to save parks.
 8. Visit the Favorites page to view saved parks.
 9. Visit the about page to know about Wander USA.
 10. Visit the Contact us to leave feedback or queries if any.
 
----
 
 # Live WebSite
 
