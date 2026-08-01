@@ -155,7 +155,7 @@ Local storage allows the application to preserve user preferences without requir
 #  Installation Instructions
 
 # Clone the repository:
-git clone <your-repository-url>
+git clone  <your repository url>
 
 # Install dependencies:
 npm install
@@ -194,7 +194,7 @@ Live Website:
 Render: https://wanderusa.onrender.com
 
 
-Netlify  : https://leafy-dragon-35c6ba.netlify.app/
+Netlify  :  https://leafy-dragon-35c6ba.netlify.app/
 
 
 
