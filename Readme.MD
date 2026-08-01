@@ -203,6 +203,7 @@ Live Website:
 - Add user profiles
 - Add more search and filtering options  
 
-     Happy Exploring and Wandering with Wander USA! 🏞️
+     Happy Exploring and Wandering with Wander USA! 🏞️ #Thank You for visiting! ✨
+                 
 
-              Thank You for visiting! ✨
+              
