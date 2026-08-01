@@ -22,7 +22,8 @@ Users can explore parks by state, view park details, save favorite destinations,
 ## Technologies Used
 
 ## React
-    Used to build reusable components and create a dynamic user interface.
+-Used to build reusable components and create a dynamic user interface.
+
 
 ## React Router
    Used to create navigation between pages.
