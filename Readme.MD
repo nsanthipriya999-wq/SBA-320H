@@ -203,7 +203,9 @@ https://wanderusa.onrender.com
 - Add user profiles
 - Add more search and filtering options  
 
-     Happy Exploring and Wandering with Wander USA! 🏞️ #Thank You for visiting! ✨
+     Happy Exploring and Wandering with Wander USA! 🏞️ 
+           
+              Thank You for visiting! ✨
                  
 
               
