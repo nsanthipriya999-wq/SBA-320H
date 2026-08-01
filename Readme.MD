@@ -202,7 +202,7 @@ Live Website:
 - Add trip planning features
 - Add user profiles
 - Add more search and filtering options  
-           
 
-           -Happy Exploring and wandering with Wander USA!!
-                      Thank You !!
+     Happy Exploring and Wandering with Wander USA! 🏞️
+
+              Thank You for visiting! ✨
