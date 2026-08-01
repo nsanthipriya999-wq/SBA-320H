@@ -448,5 +448,22 @@ body,
 .favorites-container .display-card img {
   height: 160px;
   object-fit: cover;}
+  .brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
+.logo {
+  margin: 0;
+  font-size: 28px;
+}
+
+
+.subtitle {
+  margin: 0;
+  margin-left:50px;
+  font-size: 14px;
+  color: #ddd;
+}
   

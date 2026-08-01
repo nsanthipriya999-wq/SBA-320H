@@ -9,11 +9,14 @@ export default function Nav() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        {/* //-------------------Logo----------------------------- */}
-
-        <h1 className="logo">Wander USA</h1>
-        <p className="subtitle">Explore and Wander</p>
-
+          <div className="brand">
+             <h1 className="logo">
+                🦋Wander USA
+              </h1>
+              <p className="subtitle">
+                Explore and Wander
+               </p>
+            </div>
         {/* //-------------------Home ----------------------------- */}
 
         <div className="nav-links">
