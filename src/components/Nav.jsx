@@ -24,7 +24,7 @@ export default function Nav() {
             to="/"
             className="nav-link"
           >
-            Home
+           🏠 Home
           </Link>
           {/* //-------------------Explore--------------------------- */}
 
@@ -33,7 +33,7 @@ export default function Nav() {
             className="nav-link"
             
           >
-            Explore
+            🌏Explore
           </Link>
 
           {/* //-------------------Favorites---------------------------- */}
@@ -42,7 +42,7 @@ export default function Nav() {
             className="nav-link"
             
           >
-            Favorites
+            ❤️Favorites
           </Link>
 
           {/* //-------------------About--------------------------- */}
@@ -50,7 +50,7 @@ export default function Nav() {
             to="/about"
             className="nav-link"
           >
-            About
+            🌲About
           </Link>
 
           {/* //-------------------Contact Us---------------------------- */}
@@ -58,7 +58,7 @@ export default function Nav() {
             to="/contactus"
             className="nav-link"
           >
-            ContactUs
+            📞ContactUs
           </Link>
 
         </div>
