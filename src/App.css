@@ -41,10 +41,7 @@
 
 
 
-.nav-link {
-  color: white;
-  text-decoration: none;
-}
+
 
 .nav-link:hover {
   color: #90e0ef;
@@ -228,7 +225,7 @@
 }
 
 
-/* 404 */
+/*-------------------404---------------------------------- */
 
 .not-found {
   background-color: #e8f5e9;
