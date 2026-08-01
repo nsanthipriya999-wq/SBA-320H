@@ -139,3 +139,57 @@ The navigation bar uses a sticky position so it stays visible while users scroll
 ## Local Storage
 
 Local storage allows the application to preserve user preferences without requiring a login system.
+
+
+#  Installation Instructions
+
+Clone the repository:
+git clone <your-repository-url>
+
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
+
+Open the application in your browser using the local development URL.
+http://localhost:5173
+
+# Usage Instructions
+
+1. Open Wander USA.
+2. Use the navigation menu to explore different pages.
+3. Visit the Explore page.
+4. Select a state to view available national parks.
+5. View park images, descriptions, and details.
+6. Click **Learn More** to visit the official park website.
+7. Click **Add Favorite** to save parks.
+8. Visit the Favorites page to view saved parks.
+9. Visit the about page to know about Wander USA.
+10. Visit the Contact us to leave feedback or queries if any.
+
+---
+
+# Live WebSite
+
+Live Website:
+
+
+
+
+
+
+#  Future Improvements
+
+- Add interactive park maps
+- Add weather information
+- Add trip planning features
+- Add user profiles
+- Add more search and filtering options
+
+
+---
+
+        Happy Exploring and Wandering Wander USA!!
+            
+                       Thank you!!
