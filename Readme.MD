@@ -187,4 +187,8 @@ Live Website:
 - Add weather information
 - Add trip planning features
 - Add user profiles
-- Add more search and filtering options                      
+- Add more search and filtering options  
+           
+
+           -Happy Exploring and wandering with Wander USA!!
+                      Thank You !!
