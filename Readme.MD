@@ -189,7 +189,10 @@ http://localhost:5173
 # Live WebSite
 
 Live Website:
-https://wanderusa.onrender.com
+
+Netlify  : https://leafy-dragon-35c6ba.netlify.app/
+Render: https://wanderusa.onrender.com
+
 
 
 
