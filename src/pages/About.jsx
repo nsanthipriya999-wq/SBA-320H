@@ -4,6 +4,7 @@ export default function About()
 {
     return(
         <div className="about-container">
+            <div class="about-card">
           <h1>About Wander USA</h1>
           <p>Wander USA helps you discover America's beautiful national parks.
              Explore parks by state ,view park information, and save your favorite
@@ -20,6 +21,7 @@ export default function About()
             images, activities, and favorites so you can save and plan the destinations 
             that interest you most.
           </p>
+          </div>
         </div>
 
     )
