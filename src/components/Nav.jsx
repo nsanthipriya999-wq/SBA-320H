@@ -42,9 +42,9 @@ export default function Nav() {
             Favorites
           </Link>
 
-          {/* //-------------------Favorites--------------------------- */}
+          {/* //-------------------About--------------------------- */}
           <Link
-            to="/favorites"
+            to="/about"
             className="nav-link"
           >
             About
