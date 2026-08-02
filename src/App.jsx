@@ -1,3 +1,5 @@
+
+//--------------------App.jsx--------------------------------------------------------
 import react from 'react';
 import Nav from "./components/Nav.jsx"
 import Home from "./pages/Home.jsx"

@@ -1,3 +1,5 @@
+
+//--------------------------Home Page---------------------------------
 import { useEffect, useState } from "react";
 import Carousel from "../components/Carousel.jsx";
 import { getNationalParks } from "../services/api.js";
@@ -16,7 +18,7 @@ export default function Home() {
 
                 const data = await getNationalParks("CA");
 
-                setParks(data.slice(0, 5));
+                setParks(data.slice(0, 9));
 
             } catch (error) {
 
@@ -41,9 +43,7 @@ export default function Home() {
         <main className="home-page">
 
 
-            <section className="hero" style={{
-    backgroundImage: `url(${backgroundImage})`
-  }}>
+            <section className="hero" style={{backgroundImage: `url(${backgroundImage})`}}>
 
                 <h1>
                     Welcome to Wander USA

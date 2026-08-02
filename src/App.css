@@ -399,3 +399,11 @@ background:#E8DFF5;
 .notfound-card p {
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+  }
+}

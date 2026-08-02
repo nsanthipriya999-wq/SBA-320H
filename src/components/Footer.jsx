@@ -1,7 +1,6 @@
 
 //------------Footer-----------------------------------
-export default function Footer()
-{
+export default function Footer() {
     return (
         <div className="footer">
             <p>© 2026 🦋Wander USA. All Rights Reserved.</p>

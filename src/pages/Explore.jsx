@@ -1,3 +1,5 @@
+
+//------------------Explore parks and attractions--Page------------------
 import { useEffect, useState, useContext } from "react";
 import { FavoriteContext } from "../context/FavoriteContext.jsx"
 import { getNationalParks } from "../services/api.js";
@@ -98,7 +100,7 @@ console.log(favorites);
 
                 <input
                     type="text"
-                    placeholder="🔎Search park..."
+                    placeholder="🔎Search ....."
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                 />

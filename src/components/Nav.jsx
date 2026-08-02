@@ -9,14 +9,14 @@ export default function Nav() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-          <div className="brand">
-             <h1 className="logo">
-                🦋Wander USA
-              </h1>
-              <p className="subtitle">
-                Explore & Wander
-               </p>
-            </div>
+        <div className="brand">
+          <h1 className="logo">
+            🦋Wander USA
+          </h1>
+          <p className="subtitle">
+            Explore & Wander
+          </p>
+        </div>
         {/* //-------------------Home ----------------------------- */}
 
         <div className="nav-links">
@@ -24,14 +24,14 @@ export default function Nav() {
             to="/"
             className="nav-link"
           >
-           🏠 Home
+            🏠 Home
           </Link>
           {/* //-------------------Explore--------------------------- */}
 
           <Link
             to="/explore"
             className="nav-link"
-            
+
           >
             🌏Explore
           </Link>
@@ -40,7 +40,7 @@ export default function Nav() {
           <Link
             to="/favorites"
             className="nav-link"
-            
+
           >
             ❤️Favorites
           </Link>
@@ -62,7 +62,7 @@ export default function Nav() {
           </Link>
 
         </div>
-         
+
       </div>
     </nav>
   );

@@ -1,4 +1,8 @@
+
+import placeholder from "../assets/placeholder.png"
 export default function Park({ park, favorites, addFavorite, removeFavorite }) {
+
+
   const isFavorite = favorites?.some((fav) => fav.id === park.id) || false;
   return (
     <div className="display-card">
@@ -17,7 +21,7 @@ export default function Park({ park, favorites, addFavorite, removeFavorite }) {
         <p>{park.description ? park.description.substring(0, 120) + ".." : "No description available."}
         </p>
 
-         <div className="card-button">
+        <div className="card-button">
           {/* opens the website url in a new tab with security  */}
           <a
             href={park.url}
@@ -29,9 +33,7 @@ export default function Park({ park, favorites, addFavorite, removeFavorite }) {
 
           <button
             onClick={() => {
-              isFavorite
-                ? removeFavorite(park.id)
-                : addFavorite(park);
+              isFavorite ? removeFavorite(park.id) : addFavorite(park);
             }}
           >
             {isFavorite ? "❤️ Saved" : "🤍 Add Favorite"}

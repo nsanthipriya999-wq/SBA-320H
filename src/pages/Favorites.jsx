@@ -1,4 +1,4 @@
-
+//------------------Favorites Page--------------------
 
 import { useContext } from "react";
 import { FavoriteContext } from "../context/FavoriteContext.jsx";

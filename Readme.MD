@@ -1,12 +1,17 @@
 ### 🦋 WANDER USA
-Wander USA is a React web application that helps users discover and explore America's beautiful national parks. 
+Wander USA is a React web application that helps users discover and explore America's beautiful national parks, attractions and monuments.
 
 Users can explore parks by state, view park details, save favorite destinations, and visit official park websites to plan their next adventure. 
+
+## Why I Built This
+
+During my kids' school breaks, we like to take short trips and visit new places. While planning those trips, I found myself opening multiple websites just to learn about different national parks and attractions. I wanted one place where I could browse parks, see pictures, read about them, and save the ones we'd like to visit. That's why I built 🦋Wander USA.
+
 
 ## Features
 
  - Home page with a featured national parks carousel
-- Sticky navigation bar for easy access while scrolling
+-  Sticky navigation bar for easy access while scrolling
 -  Explore national parks by state
 -  Search and browse park information
 -  Drag and drop functionality to explore parks by state.
@@ -28,37 +33,37 @@ Users can explore parks by state, view park details, save favorite destinations,
    - Nav
    - Park
    - ParkList
-   - Place
    
 
 
 ## React Router
    Used to create navigation between pages.
-     .Home
-     .Explore
-     .Favorites
-     .About
-     .ContactUs
-     .NotFound
+     -Home
+     -Explore
+     -Favorites
+     -About
+     -ContactUs
+     -NotFound
 
 ## React Hooks
 
 ### useState
 
 Used to store and update component data, including:
- . Park information
- . Favorite parks
- . User selections
+ - Park information
+ - Favorite parks
+ - User selections
 
 ### useEffect
 
 Used to handle side effects such as:
-. Fetching park data from the API
-. Loading information when components render
+- Fetching park data from the API
+- Loading information when components render
 
 ### useContext
 
 Used to share favorite park data between components without passing props through multiple levels.
+(context->FavoriteContext.jsx)
 
 
 ## JavaScript
@@ -97,7 +102,7 @@ Vite provides:
 . Images
 . Official park website links
 
-Data is fetched asynchronously and displayed dynamically in the application.
+Data is fetched asynchronously and displayed dynamically in the application.(services->api.js).
 
 ### AJAX
 Wander USA uses asynchronous JavaScript requests to communicate with an external API.
@@ -110,7 +115,7 @@ A separate program api.js (services folder) handles the AJAX requests.
 
 ### Local Storage
 
-Local storage is used to save users' favorite parks in the browser.
+Local storage is used to save user's favorite parks in the browser.
 
 This allows users to:
 
@@ -155,7 +160,7 @@ Local storage allows the application to preserve user preferences without requir
 #  Installation Instructions
 
 # Clone the repository:
-git clone  <your repository url>
+- git clone repository-url
 
 # Install dependencies:
 npm install
@@ -164,7 +169,7 @@ npm install
 
  Get your own key from the National Park Service API and save it in .env file.
 
- -.env-example has the list of environment variables used in the project
+ -An .env-example has the list of environment variables used in the project
  
 # Start the development server:
 npm run dev
@@ -184,6 +189,7 @@ http://localhost:5173
 8. Visit the Favorites page to view saved parks.
 9. Visit the about page to know about Wander USA.
 10. Visit the Contact us to leave feedback or queries if any.
+11. Search bar to search for parks or attractions.
 
 
 # Live WebSite
@@ -202,11 +208,14 @@ Netlify  :  https://leafy-dragon-35c6ba.netlify.app/
 
 #  Future Improvements
 
-- Add interactive park maps
-- Add weather information
-- Add trip planning features
-- Add user profiles
-- Add more search and filtering options  
+- Add interactive park maps.
+- Add weather information.
+- Add trip planning features.
+- Add user profiles and authentication.
+
+
+
+ 
 
 ### Happy Exploring , Wandering with 🦋 Wander USA  &  Thank You for visiting! ✨
            
